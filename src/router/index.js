@@ -26,6 +26,16 @@ import Carousel from '@/components/Carousel'
 import Tree from '@/components/Tree'
 import Tab from '@/components/Tab'
 import Dropdown from '@/components/Dropdown'
+import Progress from '@/components/Progress'
+import Menu from '@/components/Menu'
+import Page from '@/components/Page'
+import Steps from '@/components/Steps'
+import Circle from '@/components/Circle'
+import BackTop from '@/components/BackTop'
+import Spin from '@/components/Spin'
+import Upload from '@/components/Upload'
+import InputNumber from '@/components/InputNumber'
+
 
 Vue.use(iView)
 Vue.use(Router)
@@ -129,6 +139,42 @@ export default new Router({
     {
       path: '/Dropdown',
       component: Dropdown
+    },
+    {
+      path: '/Progress',
+      component: Progress
+    },
+    {
+      path: '/Menu',
+      component: Menu
+    },
+    {
+      path: '/Page',
+      component: Page
+    },
+    {
+      path: '/Steps',
+      component: Steps
+    },
+    {
+      path: '/Circle',
+      component: Circle
+    },
+    {
+      path: '/BackTop',
+      component: BackTop
+    },
+    {
+      path: '/Spin',
+      component: Spin
+    },
+    {
+      path: '/Upload',
+      component: Upload
+    },
+    {
+      path: '/InputNumber',
+      component: InputNumber
     }
   ]
 })
