@@ -1,5 +1,5 @@
 # project
-从iview官网上抄来的一些常见的组件，以及简单的使用规则。
+从iview官网上抄来的一些常见的组件的使用方法。<br>
 see  https://www.iviewui.com/docs/guide/install
 
 > A Vue.js project
