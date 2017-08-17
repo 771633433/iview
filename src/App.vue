@@ -32,9 +32,11 @@
       <router-link to='/Card'>Card</router-link>
       &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
       <router-link to='/Badge'>Badge</router-link>
+      <br>
       &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
       <router-link to='/Collapse'>Collapse</router-link>
-      <br>
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      <router-link to='/InputNumber'>InputNumber</router-link>
       &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
       <router-link to='/Timeline'>Timeline</router-link>
       &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
@@ -47,6 +49,22 @@
       <router-link to='/Tab'>Tab</router-link>
       &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
       <router-link to='/Dropdown'>Dropdown</router-link>
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      <router-link to='/Progress'>Progress</router-link>
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      <router-link to='/Menu'>Menu</router-link>
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      <router-link to='/Page'>Page</router-link>
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      <router-link to='/Steps'>Steps</router-link>
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      <router-link to='/Circle'>Circle</router-link>
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      <router-link to='/BackTop'>BackTop</router-link>
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      <router-link to='/Spin'>Spin</router-link>
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      <router-link to='/Upload'>Upload</router-link>
     </p>
     <router-view></router-view>
   </div>
@@ -66,6 +84,7 @@ export default {
   text-align: center;
   color: #2c3e50;
   margin-top: 20px;
+  height: 2000px;
 }
 a {
   font-size: 16px;
