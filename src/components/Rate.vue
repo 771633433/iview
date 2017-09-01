@@ -6,6 +6,10 @@
 			<i-col span="12">
 				<Rate show-text allow-half v-model="valueText"></Rate>
 			</i-col>
+      
+      <i-col span="12">
+				<Rate show-text v-model="valueText"></Rate>
+			</i-col>
 		</Row>
 	</div>
 </template>
